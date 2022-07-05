@@ -1,0 +1,21 @@
+.clock {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; 
+  width: 360px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+    &__title {
+      font-size: 4rem;
+    }
+    &__control {
+      margin-bottom: 2rem;
+    }
+    &__control > button {
+      font-size: 1.2rem;
+    }
+    &__text {
+      text-align: justify;
+    }
+}
